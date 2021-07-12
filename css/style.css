@@ -5,23 +5,25 @@ body {
    header {
     background-color: #95BBD5;
     padding: 15px;
+    font-family: 'Poppins', sans-serif;
    }
    header ul {
     float: right;
     color: white;
+    font-family: 'Poppins', sans-serif;
    }
    header li {
     display: inline-block;
     padding: 0px 25px;
     font-size: 25px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
    }
    
    .heroImg {
     background-color: #EBEBEB;
     padding: 100px 15px;
     font-size: 18px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
    }
    .content {
     max-width: 700px;
@@ -29,6 +31,7 @@ body {
     padding: 50px;
     background-color: #FFFFFF;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
    }
    button {
     padding: 15px;
@@ -36,6 +39,7 @@ body {
     color: white;
     font-size: 15px;
     border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
    }
 /* start of skills section*/
 .icon {
@@ -51,6 +55,7 @@ body {
     align-items: center;
     padding:25px;
     margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
 }
 .flexItem {
    margin-right: 250px;
@@ -58,6 +63,7 @@ body {
     padding: 10px;
     width: 250px;
     height: 250px;
+    font-family: 'Poppins', sans-serif;
     
 
    }
@@ -69,14 +75,17 @@ body {
     background-image: url("../images/mountainfog.jpeg");
     margin: 10px;
     padding: 10px;
+    font-family: 'Poppins', sans-serif;
    }
    .justifyContent {
     justify-content: center;
+    font-family: 'Poppins', sans-serif;
    }
    
 h3{
     font-size: 34px;
     font-weight: 600;
+    font-family: 'Poppins', sans-serif;
 }
 
    footer {
@@ -92,6 +101,6 @@ h3{
     display: inline-block;
     padding: 0px 25px;
     font-size: 25px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
    }
  
