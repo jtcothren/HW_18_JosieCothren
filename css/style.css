@@ -105,25 +105,25 @@ h3{
    #AACAT {
     grid-area: AACAT;
     background-image: url("../images/AACAT.png");
-   padding-bottom: 15px;
+   padding-bottom: 30px;
    }
    #Presto {
     grid-area: Presto;
     background-image: url("../images/pasta.jpeg");
-    padding-bottom: 15px;
+    padding-bottom: 30px;
    }
     
    #BEP {
     grid-area: BEP;
     background-image: url("../images/BEP.png");
-    padding-bottom: 15px;
+    padding-bottom: 30px;
    }
     
   
      #Sherpa {
     grid-area: Sherpa;
     background-image: url("../images/sherpa.png");
-    padding-bottom: 15px;
+    padding-bottom: 30px;
    }
     
    .categoryGridArea {
@@ -137,7 +137,7 @@ h3{
    }
     
    .heading {
-    background-color: rgba(0,0,0,0.7);
+    background-color:#95BBD5;
     padding: 15px;
     height: 25px;
     color: white;
@@ -163,4 +163,6 @@ h3{
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
    }
+
+  
  
