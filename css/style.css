@@ -57,23 +57,27 @@ body {
     margin-top: 25px;
     font-family: 'Poppins', sans-serif;
 }
-.flexItem {
+
+
+   .flexContainer {
+    display: flex;
+  
+    background-image: url("../images/mountainfog.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+   }
+
+   .flexItem {
    margin-right: 250px;
     margin-left: 250px;
     padding: 10px;
     width: 250px;
-    height: 250px;
+    
     font-family: 'Poppins', sans-serif;
     
-   }
-
-   .flexContainer {
-    display: flex;
-    height: 950px;
-    background-image: url("../images/mountainfog.jpeg");
-    margin: 10px;
-    padding: 10px;
-    font-family: 'Poppins', sans-serif;
    }
    .justifyContent {
     justify-content: center;
@@ -146,7 +150,13 @@ h3{
     font-family: 'Poppins', sans-serif;
    }
    
-
+.Resume {
+    background-image: url("../images/mountainfog.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 848px;
+    width: 1500px;
+}
 
    footer {
     background-color: #95BBD5;
@@ -164,5 +174,40 @@ h3{
     font-family: 'Poppins', sans-serif;
    }
 
-  
+  @media only screen and (max-width:600px) {
+
+    .flexContainer {
+       flex-direction: column;
+       }
+       .flexItem {
+        margin-right: auto;
+         margin-left: auto;
+         padding: 10px;
+         width: 100%;
+         
+         font-family: 'Poppins', sans-serif;
+         
+        }
+
+        header {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, 1fr);
+            text-align: center;
+          }  
+          
+          content {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 25px;
+            background-color: #FFFFFF;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+           } 
+           .headshot { 
+               max-width: 250px;
+               max-height: 250px;
+
+           }  
+
+  }
  
